@@ -1,0 +1,11 @@
+Notes From Creating Your Own Kernel
+
+The stack set up allows to link with C code
+
+In computer programming, the block starting symbol is the portion of an object file, executable, or assembly language code that contains statically allocated variables that are declared but have not been assigned a value yet.
+
+A data segment is a portion of the virtual address space of a program, which contains the global variables and static variables that are initialized by the programmer. Note that, the data segment is not read-only, since the values of the variables can be altered at run time.
+
+The CPU uses the esp register to determine the address of the current stack frame
+
+setting kernel into long_mode changes the cpu arch to 64bit
